@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+ .container{
+            width: 500px;
+            height:450px;
+            background-color: #4F4243;
+            border:3px solid #342e36;
+            margin:auto;
+            flex-direction: column;
+             opacity:0.8;
+     
+            
+        }
+        .logo img{
+            height:80px;
+            margin:0 auto;
+            margin-top: 30PX;
+        }
+        .logo{
+            
+           display:flex;
+        }
+        
+        #input input{
+            
+            margin-top:20px;
+            
+        }
+        #input{
+            margin-top:20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+        }
+        #button{
+	        width:350px;
+	        height:40px;
+            background-color: #53614B;
+            border:none;
+            border-radius:5px 5px 5px 5px;
+            margin:0 auto;
+            margin-top:60px;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        #button buttonlogin{
+           width:100%;
+	       
+        }
+ 
+        #buttonlogin{
+            width: 100%;
+            background-image: url( "../img/_key.png");
+            justify-content: center;
+    
+        }
+        #buttonlogin:hover{
+            background-image:url( "../img/keyhover.png");
+        }
+        #buttonlogin:active{
+	        background-image:url( "../img/keyactive.png");
+        }
+        
+        .links{
+            width:350px;
+            display: flex;
+            flex-direction: row;
+            margin: auto;
+            margin-top:20px;
+            justify-content:space-between
+        }

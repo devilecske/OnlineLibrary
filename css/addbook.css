@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Add Book*/
+
+
+
+
+
+#addtab{
+    background-color: #CAA189;
+   border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 60px;
+    height:60px;
+    text-align: center;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 10%;
+}
+
+#addtab img{
+    display: flex;
+    margin: auto;
+    }
+
+.container{
+    margin:auto;
+    padding-top:20px;
+    padding-bottom: 50px;
+    border-top-left-radius: 0px;
+    
+}
+
+input{
+    width:100px;
+    height:40px;
+     background-color:#C59B83;
+    box-shadow: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+
+label{
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+form{
+    display:flex;
+    flex-direction:row
+    
+}
+
+textarea{
+    background-color:#C59B83;
+    height:300px;
+    border-radius: 5px;
+    max-width:500px;
+}
+
+
+
+#fillout{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.topcontent{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.details{
+    width:50%;
+    height:350px;
+    display: flex;
+    flex-direction:column;
+    padding: 30px;
+    
+    
+}
+
+.description{
+     width:50%; 
+    height:200px;
+    padding: 15px;
+    padding-top:30px;
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    
+}
+
+
+
+.send{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+
+

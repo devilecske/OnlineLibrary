@@ -1,0 +1,15 @@
+Questions:
+
+1.how to position the container( the brown box where all the information is) in the center, vertically?
+2.how to position the login buttons as images, with float, and how do i change images when it's hovered or activated
+3.in the icon bar how do i float the option's to the left?
+4.why are the icons shifting when it's hovered?
+5.can i make a "pick a date" selecting option, where only the year is shown, not the month and day as well
+6.how to connect the data to the design and how to get the informations displayed?
+7.to borws the books that has beed added, do i need to design something? those are informations from Denes(book title, author, publishing year etc.), and i don't know what do i need to do in that case
+
+
+could you please just take a look at the coding, and comment how can i improve, what mistakes i did and what is your advice?
+
+
+THANK YOU!!!

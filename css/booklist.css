@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+    font-size: 12px;
+}
+
+#addtab{
+    background-color: #CAA189;
+   border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 60px;
+    height:60px;
+    text-align: center;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 10%;
+}
+
+#addtab img{
+    display: flex;
+    margin: auto;
+    }
+
+.container{
+    margin: auto;
+    border-top-left-radius: 0px;
+    
+}
+
+table{
+    font-weight: normal;
+}
+
+th{
+    font-weight: normal;
+}
+
+/*table{
+            width:100%;
+            padding:30px;
+    font-size: 12px;
+            
+        }
+        
+        td{
+            border: 2px solid;
+            height:20px;
+            overflow: hidden;
+            font-size: 12px;
+            
+        }
+        
+        
+        .number{
+            width:30px;
+            text-align: center;
+        }
+        .title{
+            width:15%;
+            text-align: center;
+        
+        }
+        
+        .author{
+            width:15%;
+            text-align: center;
+        }
+        .description{
+            width:30%;
+            overflow: hidden;
+            text-align: center;
+            
+        }
+        .serialnb{
+            width:30px;
+            text-align: center;
+        }
+        
+        .edit{
+            width:10%;
+            text-align: center;
+        }
+        
+        .delete{
+            width:10%;
+            text-align: center;
+        }
+        
+        .descr{
+            height:20px;
+            overflow: hidden;
+        }

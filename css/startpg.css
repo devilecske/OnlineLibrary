@@ -1,0 +1,32 @@
+/*startpg*/
+
+
+.container{
+    margin: 200px auto;
+    margin-bottom: 0px;
+    padding: 20px;
+    flex:1;
+}
+
+
+.containeredit{
+    display: flex;
+    flex-direction: row;
+    overflow:auto;
+    pedding: 20px;
+}
+.containeradd{
+    display: flex;
+    flex-direction: row;
+    min-width:75px;    
+    flex-wrap: wrap;
+   
+}
+
+.one{
+    background-color:#E1C2B0;
+    min-width: 150px;
+    height:  200px;
+    margin:10px;
+    
+}

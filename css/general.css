@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	font-family: lucida calligraphy, cursive ;
+	src: url("img/lucida calligraphy italic.ttf");
+	
+	font-size:18px;
+}
+html,body{
+	width:100%;
+	height: 100%;
+}
+
+body{
+	background-image: url("../img/background.jpg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	margin:0;	
+}
+
+.startbg{
+    background-image: url( "../img/background start.jpg")
+}
+
+
+/*scrollbar*/
+
+body::-webkit-scrollbar {
+    width: 10px;
+    background-color: #C59B83;
+    
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px #C59B83;
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #4F4245;
+    border-radius: 5px;
+  outline: 1px solid #C59B83;
+}
+
+
+/*.inputs{
+	height: 50%;
+    width: 100%;
+    
+}*/
+
+.button{
+	width:350px;
+	height:40px;
+    background-color: #53614B;
+    border:none;
+    border-radius:5px 5px 5px 5px;
+}
+
+.fillout{
+	background-color:#C59B83;
+	border:none;
+	text-align:center;
+	width:346px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+}
+
+
+a:link{
+	color:black;
+	font-size:14px;
+	font-weight:normal;
+	text-decoration:none;
+}
+
+a:hover{
+	font-size:16px;
+	font-weight:bold;
+}
+
+a:active{
+	font-size:16px;
+	font-weight:bold;
+}
+a:visited{
+	color:black;
+}
+
+/*Menubar*/
+
+
+
+ .menubar{
+            width: 80%;
+            height: 50px;
+            background-color: #4F4245;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+             position:fixed;
+             top:0;
+             left:10%;
+             z-index:2;
+             box-shadow: 5px 5px 38px #352C2E;
+     
+        }
+     
+
+.option{
+        width: 50px;
+    height: 50px;
+         background-image: url( "../img/options.png");
+         background-repeat: no-repeat;
+          display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-position: center;
+    
+        }
+.option:hover{
+    background-image: url("../img/options dark.png");
+    background-color:#E1C2B0;
+    width:50px;
+    height: 50px;
+    border-radius: 5px;
+    border-bottom-left-radius: 0px;
+}
+        
+.menu{
+            width: 320px;
+            display: flex;
+            margin-right:10px;
+            justify-content:space-between;
+           
+        }
+
+.search{
+        width: 50px;
+    height: 50px;
+         background-image: url( "../img/Search.png");
+         background-repeat: no-repeat;
+    align-self: center;
+   background-position: center;
+   
+        }
+.search:hover{
+    background-image: url( "../img/Search dark.png");
+    background-color:#E1C2B0;
+    width:50px;
+    height: 50px;
+    border-radius: 5px;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.book{
+    background-image: url( "../img/book.png");
+    width: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    background-position: center;
+}
+
+        
+.book:hover{
+            width:50px;
+            background-color: #E1C2B0;
+    align-content: center;
+    background-image: url( "../img/book dark.png");
+    border-radius: 5px;
+        }
+
+.addbook{
+    background-image: url( "../img/addbook.png");
+    width: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    background-position: center;
+}
+
+        
+.addbook:hover{
+            width:50px;
+            background-color: #E1C2B0;
+    align-content: center;
+    background-image: url( "../img/addbookd.png");
+    border-radius: 5px;
+        }
+.user{
+    background-image: url( "../img/user.png");
+    width: 50px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    background-position: center;
+}
+
+        
+.user:hover{
+            width:50px;
+            background-color: #E1C2B0;
+    align-content: center;
+    background-image: url( "../img/user dark.png");
+    border-radius: 5px;
+        }
+
+.hello{
+    font-size:14px;
+}
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    align-items: stretch;
+    width:80%;
+    background-color: #4F4245; 
+    opacity:0.8;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+
+.dropdown-content {
+  display: none;
+  justify-content: center;
+    margin-top: 220px;
+  background-color: #E1C2B0;
+  width: 50px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 10px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #4F4245;
+    
+}
+
+.option:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content .settings{
+    background-image: url( "../img/settings dark.png");
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:  center;
+    background-position: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+        
+.settings:hover{
+            width:30px;
+            height: 30px;
+            background-color: #E1C2B0;
+    align-content: center;
+    background-image: url( "../img/settings.png");
+    
+        }
+
+.dropdown-content .addlist{
+    background-image: url( "../img/add dark.png");
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:  center;
+    background-position: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+        
+.addlist:hover{
+            width:30px;
+            height: 30px;
+            background-color: #E1C2B0;
+    align-content: center;
+    background-image: url( "../img/add.png");
+    display: flex;
+    justify-content: center;
+        }
+

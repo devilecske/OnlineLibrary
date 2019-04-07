@@ -1,0 +1,83 @@
+/*new user*/
+form{
+    display: flex;
+    margin: auto;
+}
+.container {
+    width:100%;
+    background: unset;
+    opacity: 1;
+}
+.register{
+    width: 500px;
+    height: 550px;
+    background-color: #4F4243;
+    border:3px solid #342e36;
+    flex-direction: column;
+    opacity:0.8;
+}
+
+
+.logo img{
+            height:80px;
+            margin:0 auto;
+            margin-top: 10PX;
+        }
+.logo{
+            
+           display:flex;
+        }
+
+.exit{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:5px;
+    margin-right: 5px;
+}
+
+.login{
+    height:300px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#button{
+	        width:350px;
+	        height:40px;
+            background-color: #53614B;
+            border:none;
+            border-radius:5px 5px 5px 5px;
+            margin:0 auto;
+            margin-top:60px;
+            display: flex;
+            justify-content: center;
+        }
+
+
+        #button buttonlogin{
+           width:100%;
+	       
+        }
+ 
+        #buttonlogin{
+            width: 100%;
+            background-image: url( "../img/_key.png");
+            justify-content: center;
+    
+        }
+        #buttonlogin:hover{
+            background-image:url( "../img/keyhover.png");
+        }
+        #buttonlogin:active{
+	        background-image:url( "../img/keyactive.png");
+        }
+        
+tr {
+    
+}
+th {
+    
+}

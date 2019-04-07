@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#startbg{
+	background-image: url("background start.jpg");
+	background-repeat:no-repeat;
+	background-attachment:scroll;
+	
+}
+.login-form{
+	width: 100%;
+	height: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+	
+	background-color:#4f4243;
+	border:3px solid #342e36;
+	opacity:0.8;
+	
+	
+}
+.register{
+	align-self: flex-end;
+}
+#login{
+	width:500px;
+	height:350px;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.lib-container{
+	width: 80%;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.inputs{
+	height: 50%;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#forgotpass{
+	width:500px;
+	height:250px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-125px;
+	margin-left:-250px;
+}
+
+.button{
+	width:350px;
+	height:40px;
+    background-color: #53614B;
+    border:none;
+	border-radius:5px 5px 5px 5px;
+	
+}
+button.change{
+	background-image:url("key.jpg")
+}
+button.change:hover{
+	background-image:url("keyhover.jpg");
+}
+
+#buttonlogin{	
+	width: 100%;
+    background-image: url(_key.jpg);
+    display: block;
+    height: 40px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-position: center;
+	user-select: none;
+}
+#buttonlogin:hover{
+	background-image: url('keyactive.jpg')
+}
+#buttonlogin:active{
+	background-image:url('keyhover.jpg');
+}
+/* #buttonlogin>div{
+	height: 40px;
+    width: 40px;
+    margin: 0 auto;
+	background:url('key.jpg');
+}
+#buttonlogin:hover>div{
+	background:url('key_hover.jpg');
+} */
+
+#buttonsend{
+	position:absolute;
+	left:75px;
+	top:170px;
+	width:346px;
+	height:40px;
+	color:black;
+	
+}
+.fillout{
+	background-color:#C59B83;
+	border:none;
+	text-align:center;
+	width:346px;
+	height:40px;
+	border-radius:5px 5px 5px 5px;
+}
+.fillout.login{
+	width:100% !important;
+}
+
+
+a:link{
+	color:black;
+	font-size:14px;
+	font-weight:normal;
+	text-decoration:none;
+}
+a:active{
+	font-size:16px;
+    font-weight:bold;
+    color:black;
+}
+a:visited{
+	color:black;
+}
